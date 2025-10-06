@@ -28,6 +28,27 @@
             bindings = <&tog 4>;
             key-positions = <4 7>;
         };
+
+        outlineFigma {
+            bindings = <&outlines>;
+            key-positions = <15 50>;
+            layers = <4>;
+        };
+
+        lineToolFigma {
+            bindings = <&kp L>;
+            key-positions = <19 15>;
+            layers = <4>;
+        };
+    };
+
+    macros {
+        outlines: outlines {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(Y)>;
+            label = "OUTLINES";
+        };
     };
 
     keymap {
