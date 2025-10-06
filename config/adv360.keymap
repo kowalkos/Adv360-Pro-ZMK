@@ -26,7 +26,7 @@
 
         figma {
             bindings = <&tog 4>;
-            key-positions = <4 26 25>;
+            key-positions = <4 7>;
         };
     };
 
