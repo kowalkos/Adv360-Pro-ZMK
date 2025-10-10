@@ -29,12 +29,6 @@
             key-positions = <4 7>;
         };
 
-        outlineFigma {
-            bindings = <&outlines>;
-            key-positions = <15 50>;
-            layers = <4>;
-        };
-
         moveToolFigma {
             bindings = <&kp V>;
             key-positions = <15 19>;
@@ -99,15 +93,6 @@
             bindings = <&kp S>;
             key-positions = <19 49>;
             layers = <4>;
-        };
-    };
-
-    macros {
-        outlines: outlines {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(Y)>;
-            label = "OUTLINES";
         };
     };
 
