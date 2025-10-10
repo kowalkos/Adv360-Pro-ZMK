@@ -35,9 +35,69 @@
             layers = <4>;
         };
 
-        lineToolFigma {
+        moveToolFigma {
+            bindings = <&kp V>;
+            key-positions = <15 19>;
+            layers = <4>;
+        };
+
+        frameToolFigma {
+            bindings = <&kp F>;
+            key-positions = <19 16>;
+            layers = <4>;
+        };
+
+        penToolFigma {
+            bindings = <&kp P>;
+            key-positions = <19 17>;
+            layers = <4>;
+        };
+
+        pencilToolFigma {
+            bindings = <&kp LS(P)>;
+            key-positions = <19 18>;
+            layers = <4>;
+        };
+
+        textTool {
+            bindings = <&kp T>;
+            key-positions = <19 29>;
+            layers = <4>;
+        };
+
+        rectangleTool {
+            bindings = <&kp R>;
+            key-positions = <19 30>;
+            layers = <4>;
+        };
+
+        eclipseTool {
+            bindings = <&kp O>;
+            key-positions = <19 31>;
+            layers = <4>;
+        };
+
+        lineTool {
             bindings = <&kp L>;
-            key-positions = <19 15>;
+            key-positions = <32 19>;
+            layers = <4>;
+        };
+
+        arrowTool {
+            bindings = <&kp LS(L)>;
+            key-positions = <19 47>;
+            layers = <4>;
+        };
+
+        pickColorTool {
+            bindings = <&kp I>;
+            key-positions = <19 48>;
+            layers = <4>;
+        };
+
+        slicetool {
+            bindings = <&kp S>;
+            key-positions = <19 49>;
             layers = <4>;
         };
     };
