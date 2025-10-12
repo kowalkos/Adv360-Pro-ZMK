@@ -59,37 +59,37 @@
             layers = <4>;
         };
 
-        rectangleTool {
+        rectangleToolFigma {
             bindings = <&kp R>;
             key-positions = <19 30>;
             layers = <4>;
         };
 
-        eclipseTool {
+        eclipseToolFigma {
             bindings = <&kp O>;
             key-positions = <19 31>;
             layers = <4>;
         };
 
-        lineTool {
+        lineToolFigma {
             bindings = <&kp L>;
             key-positions = <32 19>;
             layers = <4>;
         };
 
-        arrowTool {
+        arrowToolFigma {
             bindings = <&kp LS(L)>;
             key-positions = <19 47>;
             layers = <4>;
         };
 
-        pickColorTool {
+        pickColorToolFigma {
             bindings = <&kp I>;
             key-positions = <19 48>;
             layers = <4>;
         };
 
-        slicetool {
+        slicetoolFigma {
             bindings = <&kp S>;
             key-positions = <19 49>;
             layers = <4>;
