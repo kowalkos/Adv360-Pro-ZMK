@@ -29,69 +29,21 @@
             key-positions = <4 7>;
         };
 
-        moveToolFigma {
-            bindings = <&kp V>;
-            key-positions = <15 19>;
+        viewRulerFigma {
+            bindings = <&kp LS(R)>;
+            key-positions = <50 15>;
             layers = <4>;
         };
 
-        frameToolFigma {
-            bindings = <&kp F>;
-            key-positions = <19 16>;
+        showOutlinesFigma {
+            bindings = <&kp LS(LC(O))>;
+            key-positions = <50 16>;
             layers = <4>;
         };
 
-        penToolFigma {
-            bindings = <&kp P>;
-            key-positions = <19 17>;
-            layers = <4>;
-        };
-
-        pencilToolFigma {
-            bindings = <&kp LS(P)>;
-            key-positions = <19 18>;
-            layers = <4>;
-        };
-
-        textTool {
-            bindings = <&kp T>;
-            key-positions = <19 29>;
-            layers = <4>;
-        };
-
-        rectangleToolFigma {
-            bindings = <&kp R>;
-            key-positions = <19 30>;
-            layers = <4>;
-        };
-
-        eclipseToolFigma {
-            bindings = <&kp O>;
-            key-positions = <19 31>;
-            layers = <4>;
-        };
-
-        lineToolFigma {
-            bindings = <&kp L>;
-            key-positions = <32 19>;
-            layers = <4>;
-        };
-
-        arrowToolFigma {
-            bindings = <&kp LS(L)>;
-            key-positions = <19 47>;
-            layers = <4>;
-        };
-
-        pickColorToolFigma {
-            bindings = <&kp I>;
-            key-positions = <19 48>;
-            layers = <4>;
-        };
-
-        slicetoolFigma {
-            bindings = <&kp S>;
-            key-positions = <19 49>;
+        showPixelPreviewFigma {
+            bindings = <&kp LS(LC(P))>;
+            key-positions = <50 17>;
             layers = <4>;
         };
     };
@@ -145,11 +97,11 @@
 
         figma {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none      &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none         &none  &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
+&none  &none      &none  &none  &none      &none  &none                                  &none  &none  &none  &none  &none  &none  &none
+&none  &kp V      &kp F  &kp P  &kp LS(P)  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
+&none  &kp T      &kp R  &kp O  &kp L      &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &kp LS(L)  &kp I  &kp S  &none      &none                &none      &none                &none  &none  &none  &none  &none  &none
+&none  &none      &none  &none  &none             &none  &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
             >;
         };
     };
