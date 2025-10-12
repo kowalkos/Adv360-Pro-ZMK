@@ -97,11 +97,11 @@
 
         figma {
             bindings = <
-&none  &none      &none  &none  &none      &none  &none                                  &none  &none  &none  &none  &none  &none  &none
-&none  &kp V      &kp F  &kp P  &kp LS(P)  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
-&none  &kp T      &kp R  &kp O  &kp L      &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &kp LS(L)  &kp I  &kp S  &none      &none                &none      &none                &none  &none  &none  &none  &none  &none
-&none  &none      &none  &none  &none             &none  &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
+&trans  &trans     &trans  &trans  &trans     &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp V      &kp F   &kp P   &kp LS(P)  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp T      &kp R   &kp O   &kp L      &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(L)  &kp I   &kp S   &trans     &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
