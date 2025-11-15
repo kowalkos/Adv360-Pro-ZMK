@@ -60,13 +60,13 @@
         };
 
         new_file_rider {
-            bindings = <&none>;
+            bindings = <&kp LA(INSERT)>;
             key-positions = <36 24>;
             layers = <0>;
         };
 
         newFileInDirectory_rider {
-            bindings = <&none>;
+            bindings = <&kp LA(LC(INSERT))>;
             key-positions = <35 36 24>;
             layers = <0>;
         };
