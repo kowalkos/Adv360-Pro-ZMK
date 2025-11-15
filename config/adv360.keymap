@@ -58,6 +58,18 @@
             key-positions = <50 30>;
             layers = <4>;
         };
+
+        new_file_rider {
+            bindings = <&none>;
+            key-positions = <36 24>;
+            layers = <0>;
+        };
+
+        newFileInDirectory_rider {
+            bindings = <&none>;
+            key-positions = <35 36 24>;
+            layers = <0>;
+        };
     };
 
     keymap {
